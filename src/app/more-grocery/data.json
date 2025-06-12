@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "title": "The Story Perfume Spray 1",
+      "unit": "100 ML",
+      "imageUrl": "/images/carrot.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 2,
+      "title": "The Story Perfume Spray 2",
+      "unit": "100 ML",
+      "imageUrl": "/images/cauliflower.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 3,
+      "title": "The Story Perfume Spray 3",
+      "unit": "100 ML",
+      "imageUrl": "/images/wheatflour.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 4,
+      "title": "The Story Perfume Spray 4",
+      "unit": "100 ML",
+      "imageUrl": "/images/maggie.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 5,
+      "title": "The Story Perfume Spray 5",
+      "unit": "100 ML",
+      "imageUrl": "/images/nescafe.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 6,
+      "title": "The Story Perfume Spray 6",
+      "unit": "100 ML",
+      "imageUrl": "/images/fortune.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 7,
+      "title": "The Story Perfume Spray 7",
+      "unit": "100 ML",
+      "imageUrl": "/images/salt.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    },
+    {
+      "id": 8,
+      "title": "The Story Perfume Spray 8",
+      "unit": "100 ML",
+      "imageUrl": "/images/oranges.svg",
+      "price":"Rs. 599",
+      "cancelprice":"Rs.1,199"
+    }
+  ]
+  

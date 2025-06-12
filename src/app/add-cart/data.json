@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Carrots",
+    "unit": "100 ML",
+    "image": "/images/carrot.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 2,
+    "title": "Cauliflowers",
+    "unit": "100 ML",
+    "image": "/images/cauliflower.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 3,
+    "title": "Aashirvaad Wheat Flour",
+    "unit": "100 ML",
+    "image": "/images/wheatflour.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 4,
+    "title": "Maggie",
+    "unit": "100 ML",
+    "image": "/images/maggie.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 5,
+    "title": "Nestle Fitness",
+    "unit": "100 ML",
+    "image": "/images/nescafe.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 6,
+    "title": "Fortune Oil",
+    "unit": "100 ML",
+    "image": "/images/fortune.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 7,
+    "title": "Tata Salt",
+    "unit": "100 ML",
+    "image": "/images/salt.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  },
+  {
+    "id": 8,
+    "title": "Oranges",
+    "unit": "100 ML",
+    "image": "/images/oranges.svg",
+    "price": "599",
+    "cancelprice": "Rs.1,199"
+  }
+]
