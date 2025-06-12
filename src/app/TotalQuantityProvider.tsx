@@ -32,7 +32,7 @@ export const TotalQuantityProvider: React.FC<{ children: React.ReactNode }> = ({
   }, []);
 
   const addToCart = (item: CartItem) => {
-    let updatedCart = [...cartItems];
+    const updatedCart = [...cartItems];
     const index = updatedCart.findIndex((i) => i.id === item.id);
 
     if (index !== -1) {
