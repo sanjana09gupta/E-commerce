@@ -20,6 +20,8 @@ function Page() {
   const [activeStep, setActiveStep] = useState<number | null>(null);
   const [addedItems, setAddedItems] = useState<number[]>([]);
   const { cartItems } = useTotalQuantity();
+    const [localCartItems, setLocalCartItems] = useState([]);
+
   const [itemQuantities, setItemQuantities] = useState<{
     [key: number]: number;
   }>({});
@@ -66,11 +68,15 @@ function Page() {
     else if (totalQuantity >= 3) setActiveStep(2);
 
     return totalQuantity;
-  };
+  }
 
-  const localCartItems: ItemType[] = JSON.parse(
-    localStorage.getItem("cartItems") || "[]"
-  );
+  useEffect(() => {
+    // This code only runs in the browser
+    const storedItems = localStorage.getItem('cartItems');
+    if (storedItems) {
+      setLocalCartItems(JSON.parse(storedItems));
+    }
+  }, []);
 
   // Merge unique items from localStorage that are not in the JSON data
   const mergedData = [
@@ -80,7 +86,7 @@ function Page() {
       cancelprice: Number(item.cancelprice),
     })),
     ...localCartItems.filter(
-      (localItem) => !data.find((jsonItem) => jsonItem.id === localItem.id)
+      (localItem: any) => !data.find((jsonItem) => jsonItem.id === localItem.id)
     ),
   ];
 

@@ -29,7 +29,7 @@ type Item = {
   imageUrl: string;
 };
 
-const ItemsDetails = ({ params }: { params: { id: string } }) => {
+const ItemsDetails = ({ params }: any) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Manage the menu state
   const [isSnackbarVisible, setSnackbarVisible] = useState(false);
   const addToCartButtonRef = useRef<HTMLButtonElement>(null);

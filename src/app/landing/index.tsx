@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react";
 import data from "./data.json";
 import ShoppingCards from "../common/ShoppingCards";
-import Slider from "react-slick";
 import "../styles/slider.css";
 import { useRouter } from "next/navigation";
 
